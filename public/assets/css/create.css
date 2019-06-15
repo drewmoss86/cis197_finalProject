@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+#custom-buttons {
+  width: 100px;
+}
+
+.add-form {
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 50px 50px 80px 50px;
+}
+
+.date {
+  width: 25%;
+}
+
+.delete-button {
+  /* padding-right: 10px; */
+  margin: auto;
+}
+
+.edit-delete-buttons {
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+/* .custom-buttons, button {
+    width: 100px !important;
+} */
+
+.distance {
+  align-items: center;
+  width: 50%;
+}
+
+.distance p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.distance-input {
+  display: flex;
+  align-items: center;
+}
+
+input.form-control.distance {
+  margin-left: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+small {
+  margin-left: 5px;
+}
+
+.use-toggle {
+  margin-left: 10px;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.save-cancel-btn {
+  display: flex;
+}
+
+.highlight {
+  background-color: lightskyblue;
+}
+
+div.form-group.capabilities.input-button {
+  display: inline-flex;
+}
+
+.capabilities  {
+  display: block;
+  /* margin-top: 10px; */
+  width: 33%
+}
+
+#capabilities {
+  width: 300px;
+}
+
+/* .capabilities button { */
+    /* margin-top: 10px; */
+/* } */
+
+.cost {
+    width: 33%;
+}
+
+.per, .miles {
+    display: flex;
+    align-items: center;
+}
+
+.btnCapValues {
+    border: 1px solid black;
+}
+
+p.btnCap span {
+  background: lightskyblue;
+  margin-right: 5px;
+}
+
+p.hiddenCap_paragraph {
+  display: none;
+}
+
+div.container.header {
+  width: 75%;
+  margin: auto;
+}
+
+div.container.float-center.add-form {
+  width: 75%;
+}
+
+input[name='cost'], input[name='incident_date'] {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.btn-primary, .btn-default, .btn-success {
+  width: 120px;
+  margin: 10px;
+}
+
+.go-back {
+  margin-left: 0px;
+}
+
+.add-btn {
+  margin-top: 0;
+}
+
+.miles input {
+  width: 200px;
+}
+
+#sFunc-input {
+  display: none;
+}

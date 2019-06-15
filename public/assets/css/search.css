@@ -1,0 +1,26 @@
+.div-search {
+    display: flex;
+    /* padding-top: 50px; */
+}
+
+.results {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.results td {
+    width: 50%;
+}
+
+.results tr{
+    border: 1px solid #dddddd;
+}
+
+.search-results tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+div.distance-input {
+  padding-left: 0;
+}

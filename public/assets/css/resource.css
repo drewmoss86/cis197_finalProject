@@ -1,0 +1,21 @@
+a.go-back {
+  margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+  .h1, h1 {
+    font-size: 1.4rem;
+  }
+
+  .use-toggle {
+    float: none;
+  }
+
+  .per {
+    display: inline-block;
+  }
+
+  .save-cancel-btn {
+    display: contents;
+  }
+}

@@ -1,0 +1,15 @@
+tr#resource-report-header {
+  background: #dddddd;
+}
+
+.i-symbol {
+  color: #3490dc;
+}
+
+.resource-report td {
+  width: 200px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}

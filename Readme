@@ -1,0 +1,33 @@
+When cloning from github, you need to set up .env.example file
+1) Change name of file to .env
+2) run 'composer install'
+3) run 'php artisan key:generate'
+4) make sure database details match your database
+
+Make sure in your .env file you db info is as shown below
+APP_NAME=CIMT
+APP_ENV=local
+APP_KEY=base64:k3Sxx+i0InubiPc2WjSv0aCFTy8FgIML80+aFgUE6lM=
+APP_DEBUG=true
+APP_URL=http://cimt
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=mysql
+DB_HOST=cimt
+DB_PORT=3306
+DB_DATABASE=cimt
+DB_USERNAME=root
+DB_PASSWORD=root
+------------------------------------------------------------------
+Assuming the above is true, in the command line run
+php artisan migrate:fresh --> this will drop and recreate a fresh empty database and delete all the database
+php artisan db:seed       --> this will seed your database with data 
+
+MAMP
+C:\MAMP\bin\apache\conf\extra\httpd-vhosts --> edit name of local url
+- Use MAMP default ports
+- Change MySQl port to 3306 (this is default port)
+- Web browser url: cimt:8888
+- Add database 'cimt'
+

@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 1,
+		"editor.detectIndentation": false,
+		"editor.autoIndent": false,
+				"editor.renderIndentGuides": true,
+				"guides.normal.enabled": false,
+				"guides.active.expandBrackets": false,
+				"editor.insertSpaces": false
+}
