@@ -67,3 +67,6 @@ div.user_contact {
 /* div.credit {
 	font-size: 0.5em;
 } */
+.container.float-center {
+    background: #fff;
+}
