@@ -11,7 +11,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="container col-md-6">
-        @include('includes/message');
+        @include('includes/message')
         <form class="form-signin mt-5 text-center col" form method="POST" action="{{ route('login')}}">
           {{-- {!! Form::open(['class' => 'form-signin mt-5 text-center col', 'method' => 'POST', 'action' => 'LoginController@login]) !!} --}}
           @csrf

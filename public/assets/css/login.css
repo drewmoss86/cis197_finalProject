@@ -1,63 +1,67 @@
 @charset "utf-8";
 
-body,html {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
- 	background-image: linear-gradient(to bottom right, #151a23, #626f84);
- 	background-repeat: no-repeat;
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: linear-gradient(
+        to bottom right,
+        #151a23,
+        #626f84
+    ) !important;
+    background-repeat: no-repeat;
 
- 	justify-content: center;
-
-
+    justify-content: center;
 }
 
-h1, h2 {
-	color: #fff !important;
-	/*font-size: 26px;*/
+h1,
+h2 {
+    color: #fff !important;
+    /*font-size: 26px;*/
 }
 
 h1 {
-	border-bottom: 1px solid white;
-	padding: 0.5em 2em;
+    border-bottom: 1px solid white;
+    padding: 0.5em 2em;
 }
 
-.login-form-control, input {
-	border: none;
-	border-radius: 0px;
-	border-bottom: 1px solid #626f84;
-	background-color: transparent;
-	color: #fff;
-	width: 100%;
-	padding-top: 20px;
+.login-form-control,
+input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #626f84;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    padding-top: 20px;
 }
-
 
 .login-form-control:focus {
-	outline: none !important;
-	/* border-bottom: 1px solid #626f84; */
-	box-shadow: none;
-	background-color: transparent;
-	color: #fff;
-	width: 100%;
+    outline: none !important;
+    /* border-bottom: 1px solid #626f84; */
+    box-shadow: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
 }
 
 .form-check {
-	text-align: left;
-	text-align: -webkit-left;
+    text-align: left;
+    text-align: -webkit-left;
 }
 
 .form-check-label {
-	color: #ccc;
+    color: #ccc;
 }
 
 .bg-dark {
-	top: 0;
-	left: 0;
+    top: 0;
+    left: 0;
 }
 
 .navbar {
-	position: absolute;
+    position: absolute;
 }
 /*.form-control [placeholder=Username], .form-control input[placeholder=Password] {
 	background-color: transparent;
@@ -66,19 +70,19 @@ h1 {
 }*/
 
 ::placeholder {
-	color: #ccc !important;
-	letter-spacing: 0.1em;
+    color: #ccc !important;
+    letter-spacing: 0.1em;
 }
 
 button {
-	border: none !important;
-	background-color: #2f81bf !important;
+    border: none !important;
+    background-color: #2f81bf !important;
 }
 
 button:hover {
-	background-color: #2070bc !important;
+    background-color: #2070bc !important;
 }
 
 button.sign-in {
-	width: 50%;
+    width: 50%;
 }
